@@ -1,0 +1,1 @@
+# algoritmo-lg-1S-2025
