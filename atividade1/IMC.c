@@ -5,12 +5,15 @@
 
 int main(int argc, char* argv[]){
     
-        
+    //digitando a altura 
+     
         float altura;
         
             printf("Digite a altura: ");
             scanf("%f", &altura);
-        
+    
+    //dgitando o peso   
+    
         float peso;
            
             printf("Digite o peso: ");
@@ -18,17 +21,22 @@ int main(int argc, char* argv[]){
 
         printf("\n");
     
+    //computador entende a altura e o peso 
+     
         printf("a altura eh %f\n", altura);
         printf("O peso eh %f\n", peso);
 
         printf("\n");
 
+    //calculo do IMC
         float imc;
 
             imc = peso / (pow(altura,2));
 
         printf("O valor do IMC he: %f", imc);
-
+    
+    //tipos de IMC
+        
         if(imc < 18.5){
 
             printf("\n");
