@@ -29,30 +29,42 @@ int main(int argc, char* argv[]){
 
         printf("O valor do IMC he: %f", imc);
 
-        float a;
+        if(imc < 18.5){
 
-            a = imc < 18,5;
+            printf("\n");
+            printf("\nIMC abaixo do normal!");
+        }
+        if(18.50 < imc && imc < 24.99){
 
-        float b;
+            printf("\n");   
+            printf("\nIMC Normal!");
+        }
+        if(25.00 < imc && imc < 29.99){
 
-            b = 18,6 < imc < 24,9 ;
+            printf("\n");   
+            printf("\nIMC acima do peso!");
+        }
+        if(30.00 < imc && imc < 34.99){
 
-        float c;
+            printf("\n");   
+            printf("\nIMC aobsidade grau 1!");
+        }
+        if(35.00 < imc && imc < 39.99){
 
-            c = 25,0 < imc < 29,9 ;
+            printf("\n");   
+            printf("\nIMC aobsidade grau 2!");
+        }
+        if(35.00 < imc && imc < 39.99){
 
-        float d;
+            printf("\n");   
+            printf("\nIMC aobsidade grau 2!");
+        }
+        if(40.00 < imc){
 
-            d = 30,0 < imc < 34,9 ;
+            printf("\n");   
+            printf("\nIMC aobsidade grau 3!");
+        }
 
-        float e;
-
-            e = 35,0 < imc < 39,9 ;
-
-        float f;
-
-            f = 40,0 < imc;
- 
     return 0;
     
 }
