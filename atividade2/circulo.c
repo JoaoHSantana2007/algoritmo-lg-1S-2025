@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
             printf("Digite o raio do circulo: ");
             scanf("%f", &r);
 
-    //Computador entende o valor do raio 
+    //Computador entende o valor do raio  do circulo
 
         printf("\n");
         printf("O valor do raio he: %f", r);

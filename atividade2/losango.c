@@ -19,7 +19,7 @@ int main(int argc, char* argv[]){
             printf("Digite a diagonal menor do losango: ");
             scanf("%f", &d);
 
-    //Computador entende o valor das diagonais 
+    //Computador entende o valor das diagonais do losango
 
         printf("\n");
         printf("O valor da diagonal maior he: %f", D);

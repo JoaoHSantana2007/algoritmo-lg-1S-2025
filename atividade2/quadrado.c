@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
             printf("Digite o valor do Lado: ");
             scanf("%f", &L);
 
-    //computador entende o valor do lago
+    //computador entende o valor do lago do quadrado
 
         printf("\n");
         printf("O valor do lado he:%f", L);
