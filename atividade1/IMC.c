@@ -50,27 +50,22 @@ int main(int argc, char* argv[]){
         if(25.00 < imc && imc < 29.99){
 
             printf("\n");   
-            printf("\nIMC acima do peso!");
+            printf("\nIMC obesidiade!");
         }
         if(30.00 < imc && imc < 34.99){
 
             printf("\n");   
-            printf("\nIMC aobsidade grau 1!");
+            printf("\nIMC obesidade grau 1!");
         }
         if(35.00 < imc && imc < 39.99){
 
             printf("\n");   
-            printf("\nIMC aobsidade grau 2!");
-        }
-        if(35.00 < imc && imc < 39.99){
-
-            printf("\n");   
-            printf("\nIMC aobsidade grau 2!");
+            printf("\nIMC obesidade grau 2!");
         }
         if(40.00 < imc){
 
             printf("\n");   
-            printf("\nIMC aobsidade grau 3!");
+            printf("\nIMC obesidade grau 3!");
         }
 
     return 0;
