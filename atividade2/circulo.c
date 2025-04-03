@@ -21,11 +21,8 @@ int main(int argc, char* argv[]){
     //Calculo da área 
         printf("\n");
 
-        float pi;
-        pi = 3.14;
-
         float area;
-        area = pi * pow(r,2);
+        area = M_PI * pow(r,2);
 
             printf("\n");
             printf("O valor da area he: %f", area);
