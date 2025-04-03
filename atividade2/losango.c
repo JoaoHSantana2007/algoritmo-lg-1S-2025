@@ -3,10 +3,13 @@
 
 int main(int argc, char* argv[]){
 
+    printf("losango.c\n");
+
     //Digite a diagonal maior do losango 
 
         float D; 
 
+            printf("\n");
             printf("Digite a diagonal maior do losango: ");
             scanf("%f", &D);
 

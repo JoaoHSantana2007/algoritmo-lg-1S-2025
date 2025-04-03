@@ -3,10 +3,13 @@
 
 int main(int argc, char* argv[]){
 
+    printf("triangulo.c\n");
+
     //Digite o valaorda altura e da base do triangulo
 
         float H;
 
+            printf("\n");
             printf("Digite o valor da altura: ");
             scanf("%f", &H);
         

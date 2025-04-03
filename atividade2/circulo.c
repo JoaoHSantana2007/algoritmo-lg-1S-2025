@@ -3,10 +3,13 @@
 
 int main(int argc, char* argv[]){
 
+    printf("circulo.c\n");
+
     //Digite o raio do circulo 
 
         float r; 
 
+            printf("\n");
             printf("Digite o raio do circulo: ");
             scanf("%f", &r);
 

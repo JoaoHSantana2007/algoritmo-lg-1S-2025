@@ -3,10 +3,13 @@
 
 int main(int argc, char* argv[]){
 
+    printf("quadrado.c\n");
+
     //Digite o lado do quadrado 
 
         float L;
 
+            printf("\n");
             printf("Digite o valor do Lado: ");
             scanf("%f", &L);
 

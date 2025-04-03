@@ -3,10 +3,13 @@
 
 int main(int argc, char* argv[]){
 
+    printf("trapezio..\n");
+
     //Digite o valaorda altura, base-maior e menor do trapezio
 
         float H;
 
+            printf("\n");
             printf("Digite o valor da altura: ");
             scanf("%f", &H);
         
