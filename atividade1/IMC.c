@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdalign.h>
-#include <windows.h>
 #include <math.h>
 
 int main(int argc, char* argv[]){
