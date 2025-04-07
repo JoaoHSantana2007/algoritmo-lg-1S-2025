@@ -23,7 +23,7 @@ int main(int argc, char* argv[]){
             printf("Circulo\n");
             printf("Digite o valor do raio (r): ");
             scanf("%f", &r);
-            A = M_PI * powf(r, 2);
+            A = 3,14 * powf(r, 2);
             break;
         case 'l':
             printf("Losango\n");
