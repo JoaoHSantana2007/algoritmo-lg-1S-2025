@@ -13,6 +13,7 @@ int nprimo(int n){
 }
 
 int main(){
+    
     int n;
 
     printf("Qual numero de seja verificar se eh primo: ");
