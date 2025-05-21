@@ -6,7 +6,6 @@ int main(int argc, char *argv[]){
 
     int x, y, z;
     
-
     if(argc < 3){
         printf("Informe 2 ou + argumentos inteiros.");
         return 1;
@@ -22,7 +21,6 @@ int main(int argc, char *argv[]){
         z = atoi(argv[3]);
         printf("%d", menor_3n(x,y,z));
     }
-
 
     return 0;
 }
