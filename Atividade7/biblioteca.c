@@ -33,7 +33,6 @@
     //Retorna o maior entre tres numeors inteiros
     
         int  menor_3n(int x, int y, int z){
+
             return menor_2n(menor_2n(x,y),z);
         }
-
-
