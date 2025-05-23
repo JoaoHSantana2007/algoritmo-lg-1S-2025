@@ -17,7 +17,7 @@ int main(int argc, char* argv[]){
     int maxAL, minAL;
     Aluno alunos[n];
 
-    for(int i=1; i <= n; i++){
+    for(int i=0; i <= n; i++){
         do{
             printf("\nDigite o nome do aluno %d: ", i);
             fgets(alunos[i].nome, TAM_NOME, stdin); 

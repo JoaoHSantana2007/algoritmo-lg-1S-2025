@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "biblioteca.c"
+#include "biblioteca.h"
 
 int main(int argc, char *argv[]){
 
