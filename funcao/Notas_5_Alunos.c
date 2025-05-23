@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 #define TAM_NOME 64
 
 typedef struct Aluno{
@@ -13,20 +14,18 @@ void imprimir_aluno(Aluno a){
 
 int main(int argc, char* argv[]){
     int n = 5;
-    float soma, max=0.0, min=10.0;
-    int maxAL, minAL;
+    float soma=0, media, max=0.0, min=10.0;
+    char maxAL, minAL;
     Aluno alunos[n];
 
-    for(int i=0; i <= n; i++){
-        do{
-            printf("\nDigite o nome do aluno %d: ", i);
-            fgets(alunos[i].nome, TAM_NOME, stdin); 
-            printf("Digite a nota do aluno %d: ", i);
-            scanf("%f", &alunos[i].nota);
-            getchar();
-            if(alunos[i].nota < 0 || alunos[i].nota > 10){
-                printf("\nErro\nDigite uma nota valida entre 0 e 10");
-            }else{
+    for(int i=1; i <= n; i++){
+        printf("\nDigite o nome do aluno %d: ", i);
+        fgets(alunos[i].nome, TAM_NOME, stdin); 
+        printf("Digite a nota do aluno %d: ", i);
+        scanf("%f", &alunos[i].nota);
+        getchar();
+    }    
+    for(int i=1; i<= n; i++){  
                 if(alunos[i].nota > max){
                     max = alunos[i].nota;
                     maxAL = i;
@@ -36,10 +35,8 @@ int main(int argc, char* argv[]){
                     minAL = i;
                 }
                 soma =+ alunos[i].nota;
+                media = soma / n;
             }
-        }while(alunos[i].nota < 0 || alunos[i].nota > 10); 
-    }   
-    float media = soma / n;
 
     printf("\nO aluno com a maior nota eh: %s", alunos[maxAL].nome);
     printf("A sua nota foi: %2.f\n", max);
