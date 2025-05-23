@@ -36,3 +36,19 @@
 
             return menor_2n(menor_2n(x,y),z);
         }
+
+//primo
+    int verifiar_numero_primo(int n){
+
+        if(n % 2 == 0){
+            return 0;
+        }
+
+        for(int i = 3; i < n; i+=2){
+            if(n % 2 == 0){
+                return 0;
+            }
+        }
+
+        return 1;
+    }
