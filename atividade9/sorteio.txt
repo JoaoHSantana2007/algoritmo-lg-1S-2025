@@ -1,0 +1,36 @@
+
+	Menor valor = 1
+	Maior valor = 2
+	Chute = 1
+	Numero sorteado = 2
+	O usuario nao foi sorteado
+
+	Menor valor = 1
+	Maior valor = 10
+	Chute = 5
+	Numero sorteado = 3
+	O usuario nao foi sorteado
+
+	Menor valor = 1
+	Maior valor = 10
+	Chute = 5
+	Numero sorteado = 9
+	O usuario nao foi sorteado
+
+	Menor valor = 1
+	Maior valor = 10
+	Chute = 5
+	Numero sorteado = 4
+	O usuario nao foi sorteado
+
+	Menor valor = 1
+	Maior valor = 2
+	Chute = 2
+	Numero sorteado = 1
+	O usuario nao foi sorteado
+
+	Menor valor = 1
+	Maior valor = 2
+	Chute = 2
+	Numero sorteado = 2
+	O usuario foi sorteado
